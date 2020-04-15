@@ -1,24 +1,105 @@
-﻿/*verison mobile*/
+﻿
+/*Couleurs
+    
+    Jaune: #fecb00;
+    Noir:  #000000;
+    Gris:  #525252;
+    Blanc: #cfcfcf;
+*/
 
 /*Paramètres généraux*/
 
 body{
-    width:90%;
-    margin:auto;
+    margin:0;
+}
+.container {
+    width: 90%;
+    margin: auto;
 }
 
+/*couleur*/
+
+.jaune {
+    color: #fecd00;
+}
+
+.gris {
+    color: #525252;
+}
+.noir{
+    background-color:#000000;
+}
+.blanc{
+    color:#ffffff;
+}
+
+/*mise en forme*/
+
+.margin0 {
+    margin: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.center {
+    text-align: center;
+}
+.display{
+    display:flex;
+    justify-content:space-around;
+}
+.border{
+    border-bottom:1px #fecd00 solid;
+}
+.justify{
+    text-align:justify;
+}
+main i{
+    color:#fecd00;
+}
+footer i {
+    color: #525252;
+}
+
+/*header*/
+
+.photo {
+    padding: 50px;
+    background-color: #fecd00;
+}
 #photo {
     border-radius: 50%;
-    width:200px;
-    height:200px;       
+    width:50%;
+    max-width:200px;  
+    max-height:200px;
     overflow:hidden;
     margin:auto;
-    margin-top:20px;
-
 }
-img {  
-    width: 100%;
-    height: auto;   
+.titre{
+    border-bottom:1px #fecd00 solid ;
 }
 
-    
+/*Main*/
+
+.ville {
+    padding-left: 20px;
+    font-size: 0.8em;
+    color: #525252;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #fecd00;
+}
+.log1{
+    font-size:1.5em;
+}
+.log2{
+    font-size:2em;
+}
+footer h2{
+    background-color: #525252;
+}
+
