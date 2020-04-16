@@ -22,7 +22,6 @@ body{
 .jaune {
     color: #fecd00;
 }
-
 .gris {
     color: #525252;
 }
@@ -55,12 +54,6 @@ img {
 .justify{
     text-align:justify;
 }
-main i{
-    color:#fecd00;
-}
-footer i {
-    color: #525252;
-}
 h2 i{
     padding-right:20px;
 }
@@ -69,21 +62,16 @@ h2 i{
 
 .photo {
     padding-top: 50px;
-    padding-bottom:50px;
-    
-    background-color: #fecd00;
-    
+    padding-bottom:50px;   
+    background-color: #fecd00;   
 }
-#photo {
+#cadre_photo {
     border-radius: 50%;
     width:50%;
     max-width:200px;  
     max-height:200px;
     overflow:hidden;
     margin:auto;
-}
-.titre{
-    border-bottom:1px #fecd00 solid ;
 }
 
 /*Main*/
@@ -108,7 +96,7 @@ footer{
 footer h2{
     background-color: #525252;
 }
-
+/*points de rupture*/
 
 @media screen and (min-width: 992px) {
 
@@ -117,48 +105,41 @@ footer h2{
  .container1{
      width:60%;
  }
- #nom {
+  main {
      width: 66.6%;
-     margin: auto;
+     font-size: 75%;
+     padding-bottom: 20px;
+ }
+    footer {
+        width: 33.3%;
+        flex-direction: column;
     }
- main{
-     width:66.6%;
-     font-size:75%;
-     padding-bottom:20px;
- }
- footer{
-     width:33.3%;
- }
- h1{
-     padding-top:20px;
-     width:100%;   
- }
- .photo{
-     width:33.3%;   
- }
- #photo{
-     max-width:300px;
-     max-height:300px;
-     
- }
- .display {
-        display: flex;
-        justify-content: space-between;
+  .display {
+     display: flex;
+     justify-content: space-between;
+}
+  #rowreverse {
+     flex-direction: row-reverse;    
+}
+ /*Header*/   
+    #nom {
+        width: 66.6%;
+        margin: auto;
     }
- #rowreverse{
-     flex-direction: row-reverse;
- }
+    h1 {
+        padding-top: 20px;
+        width: 100%;
+        font-size: 2.5em;
+    }
+    .photo {
+        width: 33.3%;
+    }
 
- h1{
-     font-size:2.5em;
- }
- .form {
-        width: 60%;
-        padding-left: 20px;       
-    }
- footer{
-     flex-direction:column;
-     
+ /*Main*/
 
- }
+  .form {
+     width: 60%;
+     padding-left: 20px;
+}
+ /*footer*/
 }
