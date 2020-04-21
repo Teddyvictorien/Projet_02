@@ -38,9 +38,11 @@ body{
     margin: 0;
 }
 img {
+    border-radius: 100%;
     width: 100%;
     height: auto;
-}
+    
+}   
 .center {
     text-align: center;
 }
@@ -61,17 +63,14 @@ h2 i{
 /*header*/
 
 .photo {
-    padding-top: 50px;
-    padding-bottom:50px;   
-    background-color: #fecd00;   
+    display: flex;
+    justify-content:center;
+    align-items:center;  
+    height: 300px;
+    background-color: #fecd00;
 }
-#cadre_photo {
-    border-radius: 50%;
-    width:50%;
-    max-width:200px;  
-    max-height:200px;
-    overflow:hidden;
-    margin:auto;
+#cadre_photo {    
+    max-width: 200px;
 }
 
 /*Main*/
@@ -106,12 +105,12 @@ footer h2{
      width:60%;
  }
   main {
-     width: 66.6%;
+     width: 67%;
      font-size: 75%;
      padding-bottom: 20px;
  }
     footer {
-        width: 33.3%;
+        width: 33%;
         flex-direction: column;
     }
   .display {
@@ -123,7 +122,7 @@ footer h2{
 }
  /*Header*/   
     #nom {
-        width: 66.6%;
+        width: 67%;
         margin: auto;
     }
     h1 {
@@ -132,7 +131,7 @@ footer h2{
         font-size: 2.5em;
     }
     .photo {
-        width: 33.3%;
+        width: 33%;
     }
 
  /*Main*/
